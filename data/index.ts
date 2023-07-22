@@ -1,5 +1,5 @@
 // Partners
-export const partnerProviders = [
+export const dataPartners = [
   {
     id: 1,
     category: "digitals",
@@ -110,6 +110,39 @@ export const partnerProviders = [
         img: "jobstreet.png",
       },
     ],
+  },
+];
+
+// FAQs
+
+// Blogs
+export const dataBlogs = [
+  {
+    id: 1,
+    title:
+      "government active union biggest huge walk real horse select pet desk managed wrapped nine taken a",
+    category: "Acara",
+    text: "young rock window physical needle habit mirror actually ride pine later crew soil climate leader corn job could hole herd evening business protection happen",
+    href: "/",
+    img: "blog-1.jpg",
+  },
+  {
+    id: 2,
+    title:
+      "beat might shape adventure recently bat sent fix handsome shut none modern snake desk what force smalle",
+    category: "Acara",
+    text: "country ear secret as missing garden applied sheet talk lamp tip poet have clean breeze keep cheese lie reach pine married direct something slipped",
+    href: "/",
+    img: "blog-2.jpg",
+  },
+  {
+    id: 3,
+    title:
+      "hill amount knife pain person duty automobile fellow pretty section length nearer success",
+    category: "Insight",
+    text: "so enemy hundred length pocket land mud escape city charge open company couple promised breeze at drive iron inside drink basis unusual progress rapidly",
+    href: "/",
+    img: "blog-3.jpg",
   },
 ];
 

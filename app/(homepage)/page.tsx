@@ -1,3 +1,4 @@
+import BlogCard from "@/components/blog-card";
 import HowToCard, { AdditionalCard } from "@/components/how-to-card";
 import PartnerCard from "@/components/partner-card";
 import SyaratMendaftar from "@/components/syarat-mendaftar";
@@ -255,16 +256,59 @@ export default function Home() {
       {/* ./ Alumni */}
 
       {/* Divider */}
-      <div className="bg-slate-50">
+      <div className="bg-slate-100 overflow-hidden">
         <Image
           src="/bg/divider-1.svg"
           alt="Divider"
           width={800}
           height={200}
-          className="h-full w-auto"
+          className="h-full w-auto -mb-1"
         />
       </div>
       {/* ./ Divider */}
+
+      {/* FAQs */}
+      <section id="faq" className="bg-white px-6 py-20">
+        <div className="container">
+          <div>
+            <h2 className="h2 text-primary-foreground">Pertanyaan Populer</h2>
+          </div>
+        </div>
+      </section>
+      {/* ./ FAQ */}
+
+      {/* Blogs */}
+      <section id="blog" className="bg-slate-100 px-6 py-20">
+        <div className="container">
+          <div className="flex flex-wrap flex-col md:flex-row md:justify-between md:items-center gap-8 max-md:items-center">
+            {/* # */}
+            <h2 className="h2 text-primary-foreground md:w-3/5">
+              Artikel terbaru
+            </h2>
+
+            {/* # */}
+            <Link
+              href="/"
+              className={cn(
+                buttonVariants({
+                  variant: "secondary",
+                  size: "lg",
+                  className:
+                    "transition duration-300 ease-linear hover:shadow-xl w-max mt-4 text-white rounded-full max-md:order-last",
+                })
+              )}
+            >
+              Lihat Semua
+            </Link>
+
+            {/* # Blog Components */}
+            <div className="w-full max-md:order-2 grid md:grid-cols-3 gap-8">
+              <BlogCard />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ./ Blogs */}
     </>
   );
 }

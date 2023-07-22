@@ -1,9 +1,9 @@
 // Data
-import { partnerProviders } from "@/data";
+import { dataPartners } from "@/data";
 import Image from "next/image";
 
 const PartnerCard = () => {
-  const items = partnerProviders;
+  const items = dataPartners;
 
   return (
     <>
