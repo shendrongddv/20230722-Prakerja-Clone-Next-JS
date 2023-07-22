@@ -16,7 +16,7 @@ export default function Home() {
         className="px-6 bg-[url(/bg/bg-1.svg)] bg-no-repeat bg-cover bg-center pb-9"
       >
         <div className="container min-h-screen flex flex-col justify-center items-center">
-          <div className="border md:w-1/2">
+          <div className="md:w-1/2">
             <div className="flex flex-col items-center text-center">
               <h1 className="font-display font-semibold text-5xl text-white">
                 Gali potensi dirimu dengan Kartu Prakerja
