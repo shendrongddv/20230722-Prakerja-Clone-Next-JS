@@ -145,8 +145,8 @@ export default function Home() {
                 src="/img-4.webp"
                 priority
                 alt="Image"
-                width={1600}
-                height={900}
+                width={1200}
+                height={675}
                 className="w-full h-auto z-[3]"
               />
             </div>
