@@ -15,10 +15,10 @@ export default function Home() {
         id="hero"
         className="px-6 bg-[url(/bg/bg-1.svg)] bg-no-repeat bg-cover bg-center pb-9"
       >
-        <div className="container min-h-screen flex flex-col justify-center items-center">
+        <div className="container max-md:pt-36 pb-20 md:min-h-screen flex flex-col justify-center items-center">
           <div className="md:w-1/2">
             <div className="flex flex-col items-center text-center">
-              <h1 className="font-display font-semibold text-5xl text-white">
+              <h1 className="text-white h1">
                 Gali potensi dirimu dengan Kartu Prakerja
               </h1>
               <p className="mt-6 text-white">
@@ -115,7 +115,7 @@ export default function Home() {
                     alt="Image"
                     width={40}
                     height={40}
-                    className="h-10 w-10 absolute right-2.5 -top-2.5"
+                    className="h-10 w-10 absolute right-3 -top-5"
                   />
                 </div>
               </div>

@@ -89,8 +89,12 @@ h6 {
   @apply font-display;
 }
 
+.h1 {
+  @apply text-4xl md:text-5xl font-medium;
+}
+
 .h2 {
-  @apply text-3xl md:text-4xl font-medium;
+  @apply text-2xl md:text-4xl font-medium;
 }
 
 .h3 {
