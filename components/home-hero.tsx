@@ -91,6 +91,7 @@ const HeroForm = () => {
       />
       <Button
         type="submit"
+        aria-label="Submit"
         variant="secondary"
         size="icon"
         className="rounded-full aspect-square"
