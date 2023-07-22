@@ -1,4 +1,5 @@
 import HowToCard, { AdditionalCard } from "@/components/how-to-card";
+import PartnerCard from "@/components/partner-card";
 import SyaratMendaftar from "@/components/syarat-mendaftar";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -223,6 +224,11 @@ export default function Home() {
         <div className="container">
           <div>
             <h2 className="h2 text-primary-foreground">Mitra Kartu Prakerja</h2>
+          </div>
+
+          {/* Partner Components */}
+          <div className="mt-10 grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <PartnerCard />
           </div>
         </div>
       </section>
