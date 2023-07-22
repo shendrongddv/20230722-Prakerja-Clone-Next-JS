@@ -100,3 +100,8 @@ h6 {
 .h3 {
   @apply text-lg md:text-xl font-medium;
 }
+
+/* Swiper */
+.swiper-slide {
+  height: auto !important;
+}

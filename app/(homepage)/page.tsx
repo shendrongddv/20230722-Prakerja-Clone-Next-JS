@@ -1,4 +1,5 @@
 import BlogCard from "@/components/blog-card";
+import { ExpertSlider } from "@/components/card-sliders";
 import FAQCard from "@/components/faq-card";
 import HowToCard, { AdditionalCard } from "@/components/how-to-card";
 import PartnerCard from "@/components/partner-card";
@@ -241,6 +242,11 @@ export default function Home() {
         <div className="container">
           <div>
             <h2 className="h2 text-primary-foreground">Menurut Para Pakar</h2>
+
+            {/* # */}
+            <div className="w-full mt-10">
+              <ExpertSlider />
+            </div>
           </div>
         </div>
       </section>
@@ -271,7 +277,7 @@ export default function Home() {
       {/* FAQs */}
       <section id="faq" className="bg-white px-6 py-20">
         <div className="container">
-          <div className="flex flex-col items-center md:flex-row md:justify-between md:items-start gap-10">
+          <div className="flex flex-col items-center md:flex-row md:justify-between md:items-start gap-8">
             {/* # */}
             <h2 className="h2 flex-1 text-primary-foreground w-max">
               Pertanyaan Populer

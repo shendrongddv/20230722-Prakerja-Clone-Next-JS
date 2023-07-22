@@ -113,6 +113,100 @@ export const dataPartners = [
   },
 ];
 
+// Expert Reviews
+export const dataExperts = [
+  {
+    id: 1,
+    nama: "H.M Queen Maxima",
+    jabatan:
+      "Penasihat Khusus Sekjen PBB untuk Pengembangan Inklusi Keuangan bagi Pembangunan",
+    foto: "/reviews/experts/1.png",
+    organisasi: "/reviews/organisasi/1.png",
+    review:
+      "Kemitraan pemerintah dan swasta adalah kunci kesuksesan program inovatif berskala besar. Program Kartu Prakerja dari Indonesia menunjukkan bagaimana kemitraan dengan lembaga pelatihan digital, platform pekerjaan, online marketplace, dan fintech telah membantu lebih dari 11 juta penerima manfaat.",
+  },
+  {
+    id: 2,
+    nama: "Satu Kähkӧnen",
+    jabatan: "Kepala Perwakilan Bank Dunia untuk Indonesia dan Timor Leste",
+    foto: "/reviews/experts/2.png",
+    organisasi: "/reviews/organisasi/2.png",
+    review:
+      "Kartu Prakerja adalah kebijakan pasar kerja aktif dan program bantuan sosial pertama di Indonesia yang menerapkan sistem pembayaran G2P berfokus pada penerima. Ini adalah sesuatu yang sangat inovatif.",
+  },
+  {
+    id: 3,
+    nama: "Norimasa Shimomura",
+    jabatan: "Kepala Perwakilan UNDP Indonesia",
+    foto: "/reviews/experts/3.png",
+    organisasi: "/reviews/organisasi/3.png",
+    review:
+      "Menyediakan bantuan sosial dalam bentuk insentif dan peningkatan kapasitas itu penting. Kartu Prakerja menunjukkan komitmen Indonesia untuk mencapai SDGs (Sustainable Development Goals) supaya no one left behind.",
+  },
+  {
+    id: 4,
+    nama: "Edy Priyono",
+    jabatan: "Deputi III Kepala Staf Kepresidenan",
+    foto: "/reviews/experts/4.png",
+    organisasi: "/reviews/organisasi/4.png",
+    review:
+      "Banyak program yang menerima keluhan masyarakat, tapi sedikit yang bisa menanggapi dengan baik. Kartu Prakerja sudah berhasil.",
+  },
+  {
+    id: 5,
+    nama: "Elan Satriawan",
+    jabatan: "Ketua Kelompok Kerja Kebijakan, TNP2K & Dosen di  UGM",
+    foto: "/reviews/experts/5.png",
+    organisasi: "/reviews/organisasi/5.png",
+    review:
+      "Manajemen Pelaksana sejak awal program, sudah membuka diri untuk melakukan rigorous evaluation terhadap program ini.",
+  },
+];
+
+// TAlumnus Reviews
+export const dataAlumni = [
+  {
+    id: 1,
+    nama: "Nama Alumni",
+    jabatan: "Info Tambahan Alumni",
+    foto: "/reviews/alumni/1.png",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit dui quisque lacinia, eleifend vivamus venenatis primis magnis interdum leo torquent metus, tellus class inceptos taciti hac magna vulputate orci conubia.",
+  },
+  {
+    id: 2,
+    nama: "Nama Alumni",
+    jabatan: "Info Tambahan Alumni",
+    foto: "/reviews/alumni/2.png",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit dui quisque lacinia, eleifend vivamus venenatis primis magnis interdum leo torquent metus, tellus class inceptos taciti hac magna vulputate orci conubia.",
+  },
+  {
+    id: 3,
+    nama: "Nama Alumni",
+    jabatan: "Info Tambahan Alumni",
+    foto: "/reviews/alumni/3.png",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit dui quisque lacinia, eleifend vivamus venenatis primis magnis interdum leo torquent metus, tellus class inceptos taciti hac magna vulputate orci conubia.",
+  },
+  {
+    id: 4,
+    nama: "Nama Alumni",
+    jabatan: "Info Tambahan Alumni",
+    foto: "/reviews/alumni/4.png",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit dui quisque lacinia, eleifend vivamus venenatis primis magnis interdum leo torquent metus, tellus class inceptos taciti hac magna vulputate orci conubia.",
+  },
+  {
+    id: 5,
+    nama: "Nama Alumni",
+    jabatan: "Info Tambahan Alumni",
+    foto: "/reviews/alumni/5.png",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit dui quisque lacinia, eleifend vivamus venenatis primis magnis interdum leo torquent metus, tellus class inceptos taciti hac magna vulputate orci conubia.",
+  },
+];
+
 // FAQs
 export const dataFAQs = [
   {
