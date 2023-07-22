@@ -17,12 +17,12 @@ const FAQCard = () => {
         <AccordionItem
           key={item.id}
           value={`${item.id}`}
-          className="border-0 bg-slate-100 rounded-2xl py-1 px-6"
+          className="border-0 bg-slate-100 rounded-2xl py-1 px-4"
         >
           <AccordionTrigger className="text-base font-medium text-primary-foreground">
             {item.q}
           </AccordionTrigger>
-          <AccordionContent className="md:pr-5 text-slate-800">
+          <AccordionContent className="text-slate-800">
             {item.a}
           </AccordionContent>
         </AccordionItem>
