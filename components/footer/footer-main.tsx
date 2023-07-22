@@ -44,9 +44,9 @@ const FooterMain = () => {
   return (
     <footer className="px-6 pt-20 bg-[url(/bg/bg-footer.svg)] bg-no-repeat bg-cover bg-center">
       <div className="container">
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col gap-16">
           {/* # Footer Top */}
-          <div className="flex flex-col md:flex-row md:justify-between gap-12">
+          <div className="flex flex-col md:flex-row md:justify-between gap-8">
             {/* ## Col */}
             <div className="md:w-1/4 w-full">
               <PancasilaText />
@@ -59,7 +59,7 @@ const FooterMain = () => {
           </div>
 
           {/* # Footer Main */}
-          <div className="flex flex-col md:flex-row md:justify-between gap-12">
+          <div className="flex flex-col md:flex-row md:justify-between gap-10">
             <FooterMainLinks />
             <FooterMainLinkExtra />
           </div>
@@ -229,7 +229,7 @@ const FooterMainLinkExtra = () => {
     <div className="md:w-2/6">
       <div className="flex flex-col relative bg-slate-50 rounded-xl p-6 md:p-8 overflow-hidden">
         {/* # */}
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col gap-10">
           {/* ## */}
           <div className="flex flex-col">
             <h4 className="text-primary-foreground font-bold font-display">
