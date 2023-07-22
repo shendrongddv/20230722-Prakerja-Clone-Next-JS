@@ -14,17 +14,22 @@ const BlogCard = () => {
       {items.map((item) => (
         <div
           key={item.id}
-          className="rounded-xl overflow-hidden bg-white group transition ease-linear duration-300 hover:shadow-xl"
+          className="rounded-xl overflow-hidden bg-white group transition ease-linear flex flex-col duration-300 hover:shadow-xl"
         >
           {/* # */}
-          <div className="aspect-[4/3] flex justify-center items-center overflow-hidden">
+          <div className="aspect-[4/3] flex justify-center items-center overflow-hidden isolate">
             <Image
               src={`/blogs/${item.img}`}
               alt={item.title}
               width={400}
               height={300}
-              className="h-full group-hover:scale-105 scale-100 w-auto object-cover transition ease-linear duration-300"
+              className="h-full group-hover:scale-105 scale-100 w-auto object-cover transition ease-linear duration-300 "
             />
+          </div>
+
+          {/* # */}
+          <div className="text-sm leading-none text-white bg-secondary-foreground w-max rounded-full px-3 py-1.5 -mt-3.5 z-10 ml-6">
+            {item.category}
           </div>
 
           {/* # */}
