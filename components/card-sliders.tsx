@@ -25,8 +25,8 @@ export const ExpertSlider = () => {
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
       }}
-      // navigation
-      // pagination={{ clickable: true }}
+      // navigation={true}
+      // pagination={{ clickable: true, type: "fraction" }}
       breakpoints={{
         640: {
           slidesPerView: 1,
@@ -48,7 +48,7 @@ export const ExpertSlider = () => {
       }}
     >
       {items.map((item) => (
-        <SwiperSlide key={item.id}>
+        <SwiperSlide key={item.id} className="max-md:px-6">
           <SliderCard
             nama={item.nama}
             jabatan={item.jabatan}

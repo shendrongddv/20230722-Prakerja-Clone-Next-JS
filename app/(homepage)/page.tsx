@@ -238,10 +238,12 @@ export default function Home() {
       {/* ./ Partners */}
 
       {/* Experts */}
-      <section id="experts" className="bg-slate-100 px-6 pt-20">
+      <section id="experts" className="bg-slate-100 md:px-6 pt-20">
         <div className="container">
           <div>
-            <h2 className="h2 text-primary-foreground">Menurut Para Pakar</h2>
+            <h2 className="h2 max-md:px-6 text-primary-foreground">
+              Menurut Para Pakar
+            </h2>
 
             {/* # */}
             <div className="w-full mt-10">
@@ -253,10 +255,17 @@ export default function Home() {
       {/* ./ Experts */}
 
       {/* Alumni */}
-      <section id="alumni" className="bg-slate-100 px-6 py-20">
+      <section id="alumni" className="bg-slate-100 md:px-6 py-20">
         <div className="container">
           <div>
-            <h2 className="h2 text-primary-foreground">Apa Kata Alumni?</h2>
+            <h2 className="h2 max-md:px-6 text-primary-foreground">
+              Apa Kata Alumni?
+            </h2>
+
+            {/* # */}
+            <div className="w-full mt-10">
+              <ExpertSlider />
+            </div>
           </div>
         </div>
       </section>
