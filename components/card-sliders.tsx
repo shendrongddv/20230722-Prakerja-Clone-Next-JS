@@ -18,7 +18,6 @@ export const ExpertSlider = () => {
 
   return (
     <Swiper
-      modules={[Navigation, Pagination, Autoplay]}
       loop
       autoplay={{
         delay: 5000,
@@ -46,6 +45,7 @@ export const ExpertSlider = () => {
           spaceBetween: 32,
         },
       }}
+      modules={[Navigation, Pagination, Autoplay]}
     >
       {items.map((item) => (
         <SwiperSlide key={item.id} className="max-md:px-6">

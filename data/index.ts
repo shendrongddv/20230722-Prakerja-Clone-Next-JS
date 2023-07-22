@@ -1,3 +1,138 @@
+// Navbar Menu
+
+// Footer Menu
+export const footerLinks = [
+  {
+    id: 1,
+    title: "Prakerja",
+    links: [
+      {
+        id: 1,
+        label: "Beranda",
+        href: "/",
+      },
+      {
+        id: 2,
+        label: "Tentang prakerja",
+        href: "/",
+      },
+      {
+        id: 3,
+        label: "Karir",
+        href: "/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Peserta",
+    links: [
+      {
+        id: 1,
+        label: "Daftar",
+        href: "/",
+      },
+      {
+        id: 2,
+        label: "Masuk",
+        href: "/",
+      },
+      {
+        id: 3,
+        label: "Tanya Jawab",
+        href: "/",
+      },
+      {
+        id: 4,
+        label: "Tren Rekrutmen",
+        href: "/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Ekosistem",
+    links: [
+      {
+        id: 1,
+        label: "Lembaga Pelatihan",
+        href: "/",
+      },
+      {
+        id: 2,
+        label: "Semua Lembaga Pelatihan",
+        href: "/",
+      },
+      {
+        id: 3,
+        label: "Pertanyaan Umum Lembaga Pelatihan",
+        href: "/",
+      },
+      {
+        id: 4,
+        label: "Kriteria Standar Pelatihan",
+        href: "/",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Lainnya",
+    links: [
+      {
+        id: 1,
+        label: "Publikasi",
+        href: "/",
+      },
+      {
+        id: 2,
+        label: "Artikel",
+        href: "/",
+      },
+    ],
+  },
+  // {
+  //   id: 5,
+  //   title: "Layanan Contact Center Prakerja",
+  //   links: [
+  //     {
+  //       id: 1,
+  //       label: "08001503001 (Gratis)",
+  //       sublabel: "",
+  //       icon: MessageSquare,
+  //       href: "/",
+  //     },
+  //     {
+  //       id: 2,
+  //       label: "Formulir Pengaduan",
+  //       sublabel: "",
+  //       icon: MessageSquare,
+  //       href: "/",
+  //     },
+  //     {
+  //       id: 2,
+  //       label: "Live Chat",
+  //       sublabel: "",
+  //       icon: MessageSquare,
+  //       href: "/",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Jam Operasional",
+  //   links: [
+  //     {
+  //       id: 1,
+  //       label: "Senin - Minggu",
+  //       sublabel: "Pukul 08.00 - 20.00 WIB",
+  //       icon: MessageSquare,
+  //       href: "/",
+  //     },
+  //   ],
+  // },
+];
+
 // Partners
 export const dataPartners = [
   {
