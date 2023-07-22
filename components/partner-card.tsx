@@ -22,7 +22,7 @@ const PartnerCard = () => {
             {item.providers.map((subitem) => (
               <div
                 key={subitem.id}
-                className="overflow-hidden flex justify-center items-center group  transition ease-linear duration-200 hover:shadow-lg rounded-full hover:bg-white bg-white/50"
+                className="overflow-hidden flex justify-center items-center group  transition ease-linear duration-200 hover:shadow-lg rounded-full bg-white"
               >
                 <Image
                   src={`/partners/${subitem.img}`}
