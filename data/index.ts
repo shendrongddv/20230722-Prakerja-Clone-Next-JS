@@ -114,6 +114,38 @@ export const dataPartners = [
 ];
 
 // FAQs
+export const dataFAQs = [
+  {
+    id: 1,
+    q: "Apa itu Program Kartu Prakerja?",
+    a: "Program Kartu Prakerja adalah program pengembangan kompetensi kerja dan kewirausahaan yang ditujukan untuk pencari kerja, pekerja/buruh yang terkena pemutusan hubungan kerja, dan/atau pekerja/buruh yang membutuhkan peningkatan kompetensi, termasuk pelaku usaha mikro dan kecil.",
+  },
+  {
+    id: 2,
+    q: "Apa itu Program Kartu Prakerja?",
+    a: "Program Kartu Prakerja adalah program pengembangan kompetensi kerja dan kewirausahaan yang ditujukan untuk pencari kerja, pekerja/buruh yang terkena pemutusan hubungan kerja, dan/atau pekerja/buruh yang membutuhkan peningkatan kompetensi, termasuk pelaku usaha mikro dan kecil.",
+  },
+  {
+    id: 3,
+    q: "Apa itu Program Kartu Prakerja?",
+    a: "Program Kartu Prakerja adalah program pengembangan kompetensi kerja dan kewirausahaan yang ditujukan untuk pencari kerja, pekerja/buruh yang terkena pemutusan hubungan kerja, dan/atau pekerja/buruh yang membutuhkan peningkatan kompetensi, termasuk pelaku usaha mikro dan kecil.",
+  },
+  {
+    id: 4,
+    q: "Apa itu Program Kartu Prakerja?",
+    a: "Program Kartu Prakerja adalah program pengembangan kompetensi kerja dan kewirausahaan yang ditujukan untuk pencari kerja, pekerja/buruh yang terkena pemutusan hubungan kerja, dan/atau pekerja/buruh yang membutuhkan peningkatan kompetensi, termasuk pelaku usaha mikro dan kecil.",
+  },
+  {
+    id: 5,
+    q: "Apa itu Program Kartu Prakerja?",
+    a: "Program Kartu Prakerja adalah program pengembangan kompetensi kerja dan kewirausahaan yang ditujukan untuk pencari kerja, pekerja/buruh yang terkena pemutusan hubungan kerja, dan/atau pekerja/buruh yang membutuhkan peningkatan kompetensi, termasuk pelaku usaha mikro dan kecil.",
+  },
+  {
+    id: 6,
+    q: "Apa itu Program Kartu Prakerja?",
+    a: "Program Kartu Prakerja adalah program pengembangan kompetensi kerja dan kewirausahaan yang ditujukan untuk pencari kerja, pekerja/buruh yang terkena pemutusan hubungan kerja, dan/atau pekerja/buruh yang membutuhkan peningkatan kompetensi, termasuk pelaku usaha mikro dan kecil.",
+  },
+];
 
 // Blogs
 export const dataBlogs = [

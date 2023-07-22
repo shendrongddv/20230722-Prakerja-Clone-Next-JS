@@ -1,4 +1,5 @@
 import BlogCard from "@/components/blog-card";
+import FAQCard from "@/components/faq-card";
 import HowToCard, { AdditionalCard } from "@/components/how-to-card";
 import PartnerCard from "@/components/partner-card";
 import SyaratMendaftar from "@/components/syarat-mendaftar";
@@ -270,8 +271,34 @@ export default function Home() {
       {/* FAQs */}
       <section id="faq" className="bg-white px-6 py-20">
         <div className="container">
-          <div>
-            <h2 className="h2 text-primary-foreground">Pertanyaan Populer</h2>
+          <div className="flex flex-col items-center md:flex-row md:justify-between md:items-start gap-10">
+            {/* # */}
+            <h2 className="h2 flex-1 text-primary-foreground w-max">
+              Pertanyaan Populer
+            </h2>
+
+            {/* # */}
+            <div className="md:w-9/12 w-full flex flex-col items-center md:items-end">
+              {/* ## FAQ Components */}
+              <div className="w-full">
+                <FAQCard />
+              </div>
+
+              {/* ## */}
+              <Link
+                href="/"
+                className={cn(
+                  buttonVariants({
+                    variant: "link",
+                    size: "lg",
+                    className:
+                      "transition duration-300 ease-linear hover:underline w-max mt-6 text-secondary-foreground py-0 px-0 rounded-full",
+                  })
+                )}
+              >
+                Lihat Semua Pertanyaan <ArrowRight className="h-4 w-4 ml-1" />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
