@@ -33,7 +33,7 @@ const SyaratMendaftar = () => {
           key={item.id}
           className="w-full flex border-l pb-4 last:pb-0 border-destructive-foreground last:border-none"
         >
-          <div className="p-1 mr-3 -ml-[12px] bg-slate-50 h-5 w-5 rounded-full">
+          <div className="p-1 mr-3 -ml-[12px] bg-slate-100 h-5 w-5 rounded-full">
             <CheckCircle2 className="h-4 w-4 text-destructive-foreground" />
           </div>
           <p className="text-primary-foreground">{item.text}</p>

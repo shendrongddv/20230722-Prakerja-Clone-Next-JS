@@ -75,7 +75,7 @@ const HowToCard = () => {
           </div>
 
           {/* # */}
-          <div className="bg-slate-50 group transition ease-linear duration-200 hover:shadow-xl hover:bg-primary-foreground rounded-3xl px-6 pt-16 pb-8 h-full">
+          <div className="bg-slate-100 group transition ease-linear duration-200 hover:shadow-xl hover:bg-primary-foreground rounded-3xl px-6 pt-16 pb-8 h-full">
             <h3 className="h3 text-primary-foreground transition ease-linear duration-200 group-hover:text-white">
               {item.title}
             </h3>

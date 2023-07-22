@@ -123,7 +123,7 @@ export default function Home() {
 
             {/* Col */}
             <div className="md:w-6/12">
-              <div className="rounded-[40px] flex flex-col bg-slate-50 px-6 py-10 md:px-10 md:py-14">
+              <div className="rounded-[40px] flex flex-col bg-slate-100 px-6 py-10 md:px-10 md:py-14">
                 {/* ## */}
                 <h3 className="h3 underline-offset-8 underline decoration-secondary-foreground decoration-2">
                   Syarat Mendaftar
@@ -208,7 +208,7 @@ export default function Home() {
               Langkah Mudah Kartu Prakerja
             </h2>
 
-            <div className="mt-14 grid md:grid-cols-3 md:grid-flow-row-dense gap-x-6 gap-y-8">
+            <div className="mt-10 grid md:grid-cols-3 md:grid-flow-row-dense gap-x-6 gap-y-8">
               {/* Component */}
               <HowToCard />
               <AdditionalCard />
@@ -219,7 +219,7 @@ export default function Home() {
       {/* ./ How To */}
 
       {/* Partners */}
-      <section id="partners" className="bg-slate-50 px-6 pt-20">
+      <section id="partners" className="bg-slate-100 px-6 pt-20">
         <div className="container">
           <div>
             <h2 className="h2 text-primary-foreground">Mitra Kartu Prakerja</h2>
@@ -229,7 +229,7 @@ export default function Home() {
       {/* ./ Partners */}
 
       {/* Experts */}
-      <section id="experts" className="bg-slate-50 px-6 pt-20">
+      <section id="experts" className="bg-slate-100 px-6 pt-20">
         <div className="container">
           <div>
             <h2 className="h2 text-primary-foreground">Menurut Para Pakar</h2>
@@ -239,7 +239,7 @@ export default function Home() {
       {/* ./ Experts */}
 
       {/* Alumni */}
-      <section id="alumni" className="bg-slate-50 px-6 py-20">
+      <section id="alumni" className="bg-slate-100 px-6 py-20">
         <div className="container">
           <div>
             <h2 className="h2 text-primary-foreground">Apa Kata Alumni?</h2>
