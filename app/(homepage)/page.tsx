@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-16">
             {/* Col */}
             <div className="md:w-5/12 max-md:px-6">
-              <div className="flex flex-col">
+              <div className="flex flex-col items-start">
                 {/* ## */}
                 <h2 className="h2 text-primary-foreground">
                   Tentang Kartu Prakerja
@@ -55,10 +55,9 @@ export default function Home() {
                   href="/"
                   className={cn(
                     buttonVariants({
-                      variant: "ghost",
-                      size: "lg",
+                      variant: "link",
                       className:
-                        "transition duration-300 ease-linear hover:shadow-xl w-max mt-4 text-secondary-foreground -translate-x-8 hover:translate-x-0 rounded-full",
+                        "mt-4 font-semibold text-secondary-foreground px-0",
                     })
                   )}
                 >
