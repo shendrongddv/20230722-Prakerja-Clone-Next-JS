@@ -60,13 +60,13 @@ const ToggleMenu = () => {
           <Menu className="h-4 w-4" />
         </Button>
       </SheetTrigger>
-      <SheetContent className="bg-gradient-to-b w-full from-primary-foreground to bg-secondary-foreground p-0 md:max-w-md">
-        <SheetHeader className="h-16 px-6 flex flex-row justify-between items-center">
+      <SheetContent className="w-full border border-secondary-foreground bg-secondary-foreground p-0 md:max-w-md">
+        {/* <SheetHeader className="h-16 px-6 flex flex-row justify-between items-center">
           <BrandLogoAlt />
-        </SheetHeader>
+        </SheetHeader> */}
         {/* Content */}
-        <div className="h-full">
-          <div className="flex flex-col gap-2 px-2 py-10">
+        <div className="h-full flex flex-col justify-between">
+          <div className="flex flex-col gap-2 px-6 py-10">
             {dataNavbarLinks.map((item) => (
               <SheetClose key={item.id} asChild>
                 <Link
@@ -77,7 +77,7 @@ const ToggleMenu = () => {
                       variant: "secondary",
                       size: "default",
                       className:
-                        "justify-start text-base font-semibold bg-transparent hover:bg-white/10",
+                        "justify-start text-base font-semibold bg-transparent hover:bg-transparent -translate-x-4 hover:translate-x-0 duration-300 ease-linear transition w-max",
                     })
                   )}
                 >
@@ -88,7 +88,7 @@ const ToggleMenu = () => {
           </div>
 
           {/* # */}
-          <div className="grid grid-cols-2 gap-2 px-6">
+          <div className="flex flex-col gap-2 px-6 pb-10">
             {/* ## */}
             <SheetClose asChild>
               <Link
@@ -126,11 +126,11 @@ const ToggleMenu = () => {
           </div>
         </div>
         {/* ./ Content */}
-        <SheetFooter>
-          {/* <SheetClose asChild>
+        {/* <SheetFooter>
+          <SheetClose asChild>
             <Button type="submit">Save changes</Button>
-          </SheetClose> */}
-        </SheetFooter>
+          </SheetClose>
+        </SheetFooter> */}
       </SheetContent>
     </Sheet>
   );
