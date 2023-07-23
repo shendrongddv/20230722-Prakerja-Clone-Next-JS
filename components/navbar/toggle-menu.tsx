@@ -88,7 +88,7 @@ const ToggleMenu = () => {
           </div>
 
           {/* # */}
-          <div className="flex flex-col gap-2 px-6 pb-10">
+          <div className="flex flex-col gap-2 px-6 pb-6">
             {/* ## */}
             <SheetClose asChild>
               <Link
